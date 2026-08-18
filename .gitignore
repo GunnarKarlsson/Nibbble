@@ -1,0 +1,33 @@
+# Build and release
+bin/
+bin-debug/
+bin-release/
+obj/
+
+# Flash Builder / Flash Catalyst
+.settings/
+.model/
+.FlexUnitSettings/
+
+# Compiled and packaged artifacts
+*.swf
+*.swc
+*.ane
+*.air
+*.ipa
+*.apk
+*.tmp
+
+# Signing certificates
+*.p12
+*.pfx
+*.keystore
+
+# OS and editor
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+.idea/
+*.iml
+*~
